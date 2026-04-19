@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematik Muhabbat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card" id="mainCard">
+        <p class="small-text">Matematikaga oid sevgi izhori</p>
+        <h1>Sen bilan hayotimning eng chiroyli formulasi topildi ❤️</h1>
+        
+        <p class="description">
+            Azizim, sen matematika o'qituvchisi bo'lsang ham, yuragimdagi hislarni hech qanday formula to'liq ifodalay olmaydi. Lekin bitta narsa aniq: <b>menga eng to'g'ri yechim — bu sensan.</b>
+        </p>
+
+        <div class="formula-container">
+            <span class="bracket">(</span>Men + Sen<span class="bracket">)</span><span class="super">∞</span> 
+            <span class="equal">=</span> 
+            <span class="result">Muhabbatning eng chiroyli natijasi</span>
+        </div>
+
+        <div class="explanation-grid">
+            <div class="item"><b>∞ Cheksizlik</b><p>Senga bo'lgan mehrim cheksizlikka intiladi.</p></div>
+            <div class="item"><b>√Baxt</b><p>Hayotimning ildizi ostida javob hamisha sensan.</p></div>
+            <div class="item"><b>x = Sen</b><p>Qalbimdagi noma'lumning javobi bitta chiqadi.</p></div>
+        </div>
+
+        <p class="footer-msg">Bugun bitta muhim savolim bor...</p>
+        <h2 class="main-question">Meni ham sevasanmi? 🥺</h2>
+        
+        <div class="buttons">
+            <button id="mainYesBtn">Ha ❤️</button>
+            <button id="noBtn">Eee yo'q-da 😂</button>
+        </div>
+        <p class="hint">Maslahat: "Yo'q" tugmasini ushlash unchalik oson emas 😉</p>
+    </div>
+
+    <div class="modal-overlay hidden" id="modalOverlay">
+        <div class="modal-card">
+            <div class="step-counter" id="stepCounter">1 / 5</div>
+            <h2 id="modalQuestion">Aniq sevasanmi? ✨</h2>
+            <div class="modal-buttons">
+                <button id="modalYesBtn">Ha ❤️</button>
+                <button id="modalNoBtn">Yo'q 😢</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card hidden" id="finalCard">
+        <h1 style="font-size: 50px;">MALADES 👍</h1>
+        <p>Demak, muhabbat tenglamasi muvaffaqiyatli yechildi! ❤️</p>
+    </div>
+
+    <div class="meme-container hidden" id="memeContainer">
+        <video id="memeVideo" width="100%" playsinline>
+            <source src="meme.mp4" type="video/mp4">
+        </video>
+        <button class="close-meme" id="closeMemeBtn">Yopish</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
